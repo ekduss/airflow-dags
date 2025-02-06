@@ -23,7 +23,7 @@ Created with Elyra 3.15.0 pipeline editor using `test.pipeline`.
 op_a97f8e4c_8879_4bc3_9825_7ede96f1b975 = BashOperator(
     task_id="BashOperator",
     bash_command="echo 'hi dayeon'",
-    xcom_push=False,
+    do_xcom_push=False,
     env={},
     output_encoding="utf-8",
     executor_config={},
